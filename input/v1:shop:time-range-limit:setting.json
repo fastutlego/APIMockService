@@ -1,0 +1,8 @@
+{
+  "personLimit" : {
+    "is_use" : true;
+  },
+  "teamLimit": {
+    "is_use" : true;
+  }
+}
