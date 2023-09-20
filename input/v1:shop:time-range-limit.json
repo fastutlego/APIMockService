@@ -1,8 +1,33 @@
-{
-    "personLimit": {
-        "limitList": []
-    },
-    "teamLimit": {
-        "limitList": []
-    }
+{ 
+	"limitList": 
+		[
+			{
+				"limitSeqList" : [1,2,3],
+				"priority": 1,
+				"startTime": "10:00",
+				"endTime": "14:00",
+				"startDate": "2023-09-13",
+				"endDate": "2023-09-18",
+				"dayTypeList": [
+					"MON",
+					"TUE",
+					"WED"
+				],
+				"limit": 2
+			},
+			{
+				"limitSeqList" : [3,4,5],
+				"priority": 5,
+				"startTime": "17:00",
+				"endTime": "22:00",
+				"startDate": null,
+				"endDate": null,
+				"dayTypeList": [
+					"MON",
+					"TUE",
+					"WED"
+				],
+				"limit": 2
+			}
+		]
 }
